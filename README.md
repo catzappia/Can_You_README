@@ -43,13 +43,11 @@ It was built using MacOS Sonoma 14.5
 5. If all questions were answered properly, the application will generate a high-quality README.md file!
 
 ## Credits
-Inquirer.js belongs to [S. Boudrais](https://www.github.com/SBoudrais)
+Inquirer.js belongs to [Simon Boudrias](https://www.github.com/SBoudrias)
 
 ## License
 
 ---
-## Badges
-
 ## Authors
 Catherine Zappia | [Github](https://www.github.com/catzappia)   [e-mail](catherinemzappia@gmail.com)
 
