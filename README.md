@@ -23,6 +23,7 @@ Requires
 npm install
 ```
 this project uses the [Inquirer Package](https://www.npmjs.com/package/inquirer)
+Node v20 is required!
 
 It was built using MacOS Sonoma 14.5
 
