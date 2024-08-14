@@ -2,9 +2,21 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
 import generateMarkdown from './utils/generateMarkdown.js';
+import { type } from 'os';
 
 // TODO: Create an array of questions for user input
 const questions = [
+// end starter code
+  {
+    type: 'input',
+    name: 'github',
+    message: 'What is your github username?'
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email address?'
+  },
   {
     type: 'input',
     name: 'title',
@@ -18,43 +30,36 @@ const questions = [
   {
     type: 'input',
     name: 'installation',
-    message: 'Please provide installation instructions for your project.'
-  },
-  {
-    type: 'input',
-    name: 'usage',
-    message: 'Please provide usage information for your project.'
-  },
-  {
-    type: 'input',
-    name: 'contribution',
-    message: 'Please provide contribution guidelines for your project.'
+    message: 'What command should be run to install dependencies?',
+    default: 'npm i'
   },
   {
     type: 'input',
     name: 'test',
-    message: 'Please provide test instructions for your project.'
+    message: 'What command should be run to run tests?',
+    default: 'npm test'
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'What does the user need to know about using the repo?'
+  },
+  {
+    type: 'input',
+    name: 'contribution',
+    message: 'What does the user need to know about contributing to the repo?'
   },
   {
     type: 'list',
     name: 'license',
     message: 'Please select a license for your project.',
     choices: ['MIT', 'GNU GPLv3', 'Apache 2.0', 'ISC', 'None']
-  },
-  {
-    type: 'input',
-    name: 'github',
-    message: 'What is your github username?'
-  },
-  {
-    type: 'input',
-    name: 'email',
-    message: 'What is your email address?'
   }
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+// end starter code
   fs.writeFile(fileName, data, (err) => {
     if (err) {
       console.log(err);
@@ -66,6 +71,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+// end starter code
   inquirer.prompt(questions)
     .then((answers) => {
       writeToFile('README.md', generateMarkdown(answers));
@@ -74,3 +80,4 @@ function init() {
 
 // Function call to initialize app
 init();
+// end starter code

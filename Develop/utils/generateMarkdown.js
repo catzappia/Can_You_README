@@ -1,6 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+// end starter code
    if (license === 'MIT') {
         return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
     } else if (license === 'Apache') {
@@ -17,6 +18,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+// end starter code
       if (license === 'MIT') {
         return `[MIT](https://opensource.org/licenses/MIT)`
     } else if (license === 'Apache') {
@@ -33,6 +35,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+// end starter code
       if (license === 'None') {
         return ''
     } else {
@@ -43,6 +46,8 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+// starter code ends next line
+// utilized copilot to format table of contents properly
   return `# ${data.title}
  ${renderLicenseBadge(data.license)}
   repository: [${data.title}](
@@ -65,8 +70,9 @@ function generateMarkdown(data) {
   ${data.test}
   ${renderLicenseSection(data.license)}
   ## Questions
-  If you have any questions, please reach out to me at [${data.email}](mailto:${data.email}) or visit my GitHub profile at [${data.github}](${data.github}).
+  If you have any questions, please reach out to me at [${data.email}](mailto:${data.email}). To view more of my work, visit my GitHub profile at [${data.github}](${data.github}).
 `;
 }
 
+// starter code:
 export default generateMarkdown;
