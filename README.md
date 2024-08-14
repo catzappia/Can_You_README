@@ -44,6 +44,7 @@ It was built using MacOS Sonoma 14.5
 
 ## Credits
 Inquirer.js belongs to [Simon Boudrias](https://www.github.com/SBoudrias)
+Starter code belongs to BootcampSpot/EdX/Rutgers. 
 
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
