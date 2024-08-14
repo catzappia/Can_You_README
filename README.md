@@ -3,8 +3,8 @@ An application to generate a high-quality README that meets githubs' professiona
 
 ## Description
 
-- I find READMEs to be difficult to write from scratch. Starting out, I had no idea what I was suppsoed to include other than a few lines explaining what the repository was for and what it was meant to accomplish. 
--  I know for a fact that there are other developers like me--either just starting out or trying to become more comfortable and familiar with github in gerneral--that could use a README generator to help streamline their repository creation. Not to mention, it provides one less thing to stress over during the coding process! 
+- I find READMEs to be difficult to write from scratch. Starting out, I had no idea what I was supposed to include other than a few lines explaining what the repository was for and what it was meant to accomplish. 
+-  I know for a fact that there are other developers like me--either just starting out or trying to become more comfortable and familiar with github in general--that could use a README generator to help streamline their repository creation. Not to mention, it provides one less thing to stress over during the coding process! 
 - I learned how fun javascript, node, and inquirer could be! Not to mention the seemingly endless uses for these programs. Perhaps I'll dabble with them more in the (not-so-distant) future.
 
 ## Table of Contents
