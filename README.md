@@ -46,7 +46,7 @@ It was built using MacOS Sonoma 14.5
 Inquirer.js belongs to [Simon Boudrias](https://www.github.com/SBoudrias)
 
 ## License
-
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ---
 ## Authors
 Catherine Zappia | [Github](https://www.github.com/catzappia)   [e-mail](catherinemzappia@gmail.com)
