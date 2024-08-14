@@ -5,6 +5,7 @@ import generateMarkdown from './utils/generateMarkdown.js';
 
 // TODO: Create an array of questions for user input
 const questions = [
+// end starter code
   {
     type: 'input',
     name: 'title',
@@ -55,6 +56,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+// end starter code
   fs.writeFile(fileName, data, (err) => {
     if (err) {
       console.log(err);
@@ -66,6 +68,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+// end starter code
   inquirer.prompt(questions)
     .then((answers) => {
       writeToFile('README.md', generateMarkdown(answers));
