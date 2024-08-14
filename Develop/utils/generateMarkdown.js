@@ -2,7 +2,6 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
 // end starter code
-// end starter code
    if (license === 'MIT') {
         return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
     } else if (license === 'Apache') {
@@ -52,7 +51,6 @@ function generateMarkdown(data) {
 // utilized copilot to format table of contents properly
   return `# ${data.title}
  ${renderLicenseBadge(data.license)}
-  repository: [${data.title}](
   ## Description
   ${data.description}
   ## Table of Contents
