@@ -51,7 +51,7 @@ Inquirer.js belongs to [S. Boudrais](https://www.github.com/SBoudrais)
 ## Badges
 
 ## Authors
-Catherine Zappia | [Github](https://www.github.com/catzappia) [e-mail](catherinemzappia@gmail.com)
+Catherine Zappia | [Github](https://www.github.com/catzappia)   [e-mail](catherinemzappia@gmail.com)
 
 ## Version History
 - 0.1
